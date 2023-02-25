@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gloock', serif;
+}
+body {
+  background-image: url("http://www.barcelona-city-tour.com/barcelona-city-tour-map-large.png");
+  height: 100vh;
+  background-size: cover;
+}
+header {
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+aside {
+  width: 470px;
+  height: 100vh;
+  position: fixed;
+  background-color: #107ba0;
+  margin-top: 70px;
+}
+header img {
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+aside h1 {
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+}
+form {
+  margin-left: 40px;
+}
+form select {
+  width: 280px;
+  height: 28px;
+  margin-top: 15px;
+}
+p {
+  color: white;
+}
+.pricerange {
+  margin-top: 50px;
+}
+.lookingfor {
+  color: white;
+}
+.search input {
+  width: 380px;
+  height: 35px;
+  margin-top: 180px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+.prvi_box {
+  padding-left: 450px;
+  padding-top: 130px;
+  
+}
+.prvi_box>div {
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    margin: 50px ;
+
+}
+.prvi_box p {
+    color: black;
+}
+.sredina div button{
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    width: 60px;
+    border-radius: 10px;
+    height: 27px;
+    border: none;
+    background-color: #ffa500;
+    color: white;
+}
+.prvi_box>div {
+    position: relative;
+
+}
+.sredina .prvi_box .dugmici {
+  background-color: red;
+  color: white;
+}
+.sredina div img {
+  position: absolute;
+  right: 160px;
+  width: 55px;
+  height: 45px;
+  border: none;
+  top: 122px;
+}
+.sredina div .mail {
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  border: none;
+  top: 132px;
+  right: 85px;
+}
+.sredina div .tekst {
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  border: none;
+  top: 137px;
+  right: 140px;
+}
+.sredina div .kontakt {
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  border: none;
+  top: 137px;
+  right: 50px;
+}
+h1 {
+  color: #107ba0;
+}
+.sredina p{
+  color: gray;
+}
